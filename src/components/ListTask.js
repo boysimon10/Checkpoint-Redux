@@ -34,10 +34,10 @@ const ListTask = () => {
         <button onClick={() => handleSetFilter('all')} className="border-2 border-gray-500 p-2">
           Toutes
         </button>
-        <button onClick={() => handleSetFilter('done')} className="border-2 border-green-500 p-2 ml-2">
+        <button onClick={() => handleSetFilter('notDone')} className="border-2 border-green-500 p-2 ml-2">
           En cours
         </button>
-        <button onClick={() => handleSetFilter('notDone')} className="border-2 border-red-500 p-2 ml-2">
+        <button onClick={() => handleSetFilter('done')} className="border-2 border-red-500 p-2 ml-2">
         Terminée
         </button>
       </div>
